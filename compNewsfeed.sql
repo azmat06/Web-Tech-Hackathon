@@ -32,7 +32,7 @@ CREATE TABLE `account` (
   `lname` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `mobile` varchar(15) NOT NULL,
-  `username` varchar(50) NOT NULL,
+  `username` varchar(50) NOT NULL PRIMARY KEY,
   `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -42,8 +42,6 @@ CREATE TABLE `account` (
 
 INSERT INTO `account` (`fname`, `lname`, `email`, `mobile`, `username`, `password`) VALUES
 ('chris', 'rock', 'chris@gmail.com', '0171', 'chris123', '*676243218923905CF94CB52A3C9D3EB30CE8E20D'),
-('chris', 'rock', 'chris@gmail.com', '0171', 'chris123', '*676243218923905CF94CB52A3C9D3EB30CE8E20D'),
-('hailee', 'atwell', 'atwell@gmail.com', '0191', 'atwell123', '*676243218923905CF94CB52A3C9D3EB30CE8E20D'),
 ('hailee', 'atwell', 'atwell@gmail.com', '0191', 'atwell123', '*676243218923905CF94CB52A3C9D3EB30CE8E20D');
 COMMIT;
 
