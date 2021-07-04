@@ -35,27 +35,6 @@
 		if(mysqli_query($conn, $sql1)){
 			echo "Succesful";
 
-
-		// 	$sql2="select account_id from account where username='".$username."';";
-		// 	$result=mysqli_query($conn, $sql2);
-		// 	$returnedlist=mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-		// 	// $account_id=$returnedlist[0]['account_id'];
-		// 	// $sql3="insert into users(user_id, balance) values(".$account_id.",50);";
-		// 	// if(mysqli_query($conn, $sql3)){
-		// 	// 	header('location: ../usersignup.php?error=successuser');
-		// 	// 	exit();
-		// 	// }
-
-		// 	header('location: ../usersignup.php?error=fatalerroroccured');
-		// 	exit();
-
-		// }else{
-		// 	header('location: ../usersignup.php?error=unknownerror');
-		// 	exit();
-		// }
-
-
 	}else{
 		header('location: ../usersignup.php');
 		exit();
