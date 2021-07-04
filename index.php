@@ -19,7 +19,7 @@ session_start();
 	<section class="main">
 		<?php include_once 'aside.php' ?>
 
-		<main id="mainshit" class="form-style">
+		<main id="mainthing" class="form-style">
 			<div style="width: 80%; transform: rotateY(155deg) rotateX(69deg); font-size: 250px; position: static;color: blue; "></div>
 		</main>
 
